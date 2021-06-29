@@ -6,5 +6,5 @@ RUN apt update -y && apt install -y libcurl4-openssl-dev \
   libmariadb-dev libmariadbclient-dev
 
 # install necessary libraries
-RUN R -e "install.packages(c('sendmailR', 'dotenv', 'tidyverse', 'testthat', 'RCurl', 'checkmate', 'janitor', 'sqldf', 'DBI', 'RMariaDB', 'digest', 'kableExtra'))"
+RUN R -e "install.packages(c('sendmailR', 'dotenv', 'tidyverse', 'testthat', 'RCurl', 'checkmate', 'janitor', 'sqldf', 'DBI', 'RMariaDB', 'digest', 'kableExtra', 'rjson'))"
 RUN R -e "devtools::install_github('OuhscBbmc/REDCapR')"
