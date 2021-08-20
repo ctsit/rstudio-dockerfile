@@ -1,6 +1,9 @@
 name: Build Image
 
 on:
+  create:
+    tags:
+      - v*
   push:
     # Publish `master` as Docker `latest` image.
     branches:
