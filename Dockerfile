@@ -1,4 +1,4 @@
-FROM rocker/tidyverse:4.0.1
+FROM rocker/tidyverse:4.0.2
 
 WORKDIR /home/rocker
 
