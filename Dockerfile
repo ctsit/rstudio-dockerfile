@@ -1,4 +1,4 @@
-FROM rocker/tidyverse:4.1.0
+FROM rocker/tidyverse:4.2.1
 LABEL maintainer="mbentz@ufl.edu"
 
 WORKDIR /home/rocker
