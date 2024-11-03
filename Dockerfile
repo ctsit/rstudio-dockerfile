@@ -1,5 +1,5 @@
-FROM rocker/tidyverse:4.3.3
-LABEL maintainer="mbentz@ufl.edu"
+FROM rocker/verse:4.4.1
+LABEL maintainer="pbc@ufl.edu"
 
 WORKDIR /home/rocker
 
